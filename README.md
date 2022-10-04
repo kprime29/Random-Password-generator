@@ -7,4 +7,4 @@ Generates a password randomly with a given input length and other parameters lik
 
 Run 
 
-python3 manage.py runserver after cloning the project
+```python3 manage.py runserver``` after cloning the project
