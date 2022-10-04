@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<div class="container text-center">
+<h1> Password Generator </h1>
+
+<form action="password">
+    <select name = "length">
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12" selected = "selected">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+     </select> Length
+
+    <br>
+    <br>
+
+    <input type="checkbox" name="uppercase"> Upper Case </input> <br>
+    <input type="checkbox" name="lower case">  Lower Case </input> <br>
+    <input type="checkbox" name="special">  Special Chars </input> <br>
+    <input type="checkbox" name="numbers">  Numbers </input> <br>
+
+    <br>
+    <br>
+
+    <input type="submit" value="Generate Password" class="btn btn-success"> </input>
+
+</form>
+</div>
